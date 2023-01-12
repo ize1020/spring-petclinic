@@ -12,7 +12,7 @@ pipeline {
 
       	docker {
 
-        	image 'maven:sapmachine'
+        	image 'maven:3.8.7'
 
         }
 
