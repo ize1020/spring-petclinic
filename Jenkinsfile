@@ -12,7 +12,7 @@ pipeline {
 
       	docker {
 
-        	image 'maven:3.8.7'
+        	image 'maven:3.5.0'
 
         }
 
