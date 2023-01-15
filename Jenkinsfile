@@ -13,6 +13,7 @@ pipeline {
       	docker {
 
         	image 'maven:3.5.0'
+                args '-v $HOME:/home/jenkins_home'
 
         }
 
